@@ -74,6 +74,7 @@ public class SecondActivity extends AppCompatActivity {
     }private void initRecucler() {
         recyclerView = findViewById(R.id.r_of_continents);
         adapter = new com.example.hw3beksultan.Adapter();
+
         adapter.setList(arrayList);
         recyclerView.setAdapter(adapter);
 
